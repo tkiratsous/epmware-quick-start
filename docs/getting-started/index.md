@@ -80,6 +80,7 @@ A typical first-time configuration takes approximately:
 ## Common Issues
 
 ### Connection Problems
+
 If you cannot connect to the target application:
 - Verify network connectivity
 - Check firewall settings
@@ -87,6 +88,7 @@ If you cannot connect to the target application:
 - Ensure the server URL includes the correct protocol (http/https)
 
 ### Email Issues
+
 If emails are not being sent:
 - Check authentication credentials
 - Ensure the from address is valid
