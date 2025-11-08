@@ -64,7 +64,7 @@ plugins:
 
 # Navigation structure
 nav:
-  - Documentation Center: https://docs.epmware.com
+  #- Documentation Center: https://docs.epmware.com
   - Quick Start Home:
     - index.md
   - Getting Started:
