@@ -1,0 +1,107 @@
+# mkdocs.yml - EPMware Quick Start Guide
+site_name: EPMware Quick Start Guide
+site_description: Quick Start Guide for EPMware master data management and workflow tool
+site_author: EPMware, Inc.
+site_url: https://quick-start.epmware.com
+
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+  - navigation.top
+  - navigation.tracking
+  - navigation.indexes
+  - search.highlight
+  - search.share
+  - search.suggest
+  - content.code.copy
+  - content.tooltips
+  - navigation.footer
+  - toc.follow
+  - toc.integrate
+  
+  logo: assets/images/epmware-logo.png
+  favicon: assets/images/favicon.ico
+
+extra_css:
+  - assets/css/custom.css
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+plugins:
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+
+# Navigation structure
+nav:
+  - Documentation Center: https://docs.epmware.com
+  - Quick Start Home:
+    - index.md
+  - Getting Started:
+    - getting-started/index.md
+    - Overview: getting-started/#overview
+    - Prerequisites: getting-started/#prerequisites
+  - Configuration:
+    - configuration/index.md
+    - Add Target Application Server: configuration/#add-target-application-server
+    - Create EPMware Application: configuration/#create-epmware-application
+  - Security:
+    - security/index.md
+    - Default Admin User: security/#default-admin-user
+    - Change Password: security/#change-password
+  - Global Settings:
+    - global-settings/index.md
+    - Email Settings: global-settings/#email-settings
+    - Application Settings: global-settings/#application-settings
+    - User Defined Fields: global-settings/#user-defined-fields-udf
+  - Services:
+    - services/index.md
+    - Starting Services: services/#starting-services
+    - Service Types: services/#service-types
+    - Service Monitoring: services/#service-monitoring
+  - Workflow:
+    - workflow/index.md
+    - Create Workflow Tasks: workflow/#create-workflow-tasks
+    - Create Workflow: workflow/#create-workflow
+    - Add Stages: workflow/#add-stages
+    - Assign Tasks: workflow/#assign-tasks-to-stages
+  - Deployment:
+    - deployment/index.md
+    - Create Deployment: deployment/#create-deployment
+    - Schedule Deployment: deployment/#schedule-deployment
+
+extra:
+  copyright: |
+    © 2025 EPMware, Inc. All rights reserved. | 
+    <a href="https://www.epmware.com">www.epmware.com</a> | 
+    408-614-0442
