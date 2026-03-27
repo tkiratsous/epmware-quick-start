@@ -2,8 +2,7 @@
 
 The Deployment module manages the promotion of approved metadata changes to target EPM applications. This section covers creating and scheduling deployments.
 
-![Deployment Overview](../assets/images/deployment-overview.png)
-
+![Deployment Overview](../assets/images/deployment-overview.png)<br/>
 *Deployment configuration*
 
 ## Understanding Deployments

@@ -10,8 +10,7 @@ To start the required services:
 2. Review the service status dashboard
 3. Start each required service
 
-![Services Dashboard](../assets/images/services-dashboard.png)
-
+![Services Dashboard](../assets/images/services-dashboard.png)<br/>
 *Services management interface*
 
 ### Required Services to Start

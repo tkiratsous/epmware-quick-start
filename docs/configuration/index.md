@@ -12,8 +12,7 @@ The first step in configuring EPMware is to add your target application server. 
 2. Click the **Add Server** button
 3. Enter the server configuration details
 
-![Add Server](../assets/images/configuration-add-server.png)
-
+![Add Server](../assets/images/configuration-add-server.png)<br/>
 *Server configuration dialog*
 
 ### Server Configuration Fields
@@ -56,8 +55,7 @@ After adding the target server, create your EPMware application.
 
 
 
-![Create Application](../assets/images/configuration-create-application.png)
-
+![Create Application](../assets/images/configuration-create-application.png)<br/>
 *Application creation dialog*
 
 

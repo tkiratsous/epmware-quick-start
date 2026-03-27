@@ -9,8 +9,7 @@ To access Global Settings:
 1. Navigate to **Misc** → **Global**
 2. The Global Settings page displays with multiple configuration tabs
 
-![Global Settings](../assets/images/global-settings-overview.png).
-
+![Global Settings](../assets/images/global-settings-overview.png).<br/>
 *Global Settings configuration interface*
 
 ## Email Settings
@@ -55,8 +54,7 @@ Application settings define core system parameters and URLs.
 
 User Defined Fields allow customization of EPMware to capture organization-specific information.
 
-![User Defined Fields](../assets/images/global-settings-udf.png)
-
+![User Defined Fields](../assets/images/global-settings-udf.png)<br/>
 *User Defined Fields configuration*
 
 

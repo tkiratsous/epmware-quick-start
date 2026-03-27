@@ -2,8 +2,7 @@
 
 Workflows in EPMware define the approval process for metadata changes. A workflow consists of stages containing tasks that must be completed in sequence.
 
-![Workflow Overview](../assets/images/workflow-overview.png)
-
+![Workflow Overview](../assets/images/workflow-overview.png)<br/>
 *Workflow Builder*
 
 ## Understanding Workflows
